@@ -22,6 +22,11 @@
           <button>Submit</button>
         </form>
       </fieldset>
+      <ul>
+        <% for ( user of users ) { %>
+          <li>Name: <%= user.name %> Age: <%= user.age %></li>
+        <% } %>
+      </ul>
     </div>
   </body>
 </html>

@@ -11,7 +11,12 @@
 
 fieldset {
   display: inline-block;
-  padding: 25px;
+  padding: 20px 25px;
+}
+
+label {
+  display: inline-block;
+  width: 75px;
 }
 
 input {
@@ -20,9 +25,14 @@ input {
 }
 
 button {
+  float: right;
   padding: 4px 8px;
   font-size: 1em;
   background-color: gainsboro;
   border: 1px solid black;
   border-radius: 3px;
+}
+
+ul {
+  margin: 25px;
 }
